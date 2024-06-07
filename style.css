@@ -32,6 +32,11 @@ video {
     max-width: 70%;
     margin: auto;
 }
+#barbacoas{
+    background-image: url("./img/Barbacoa.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .bg-primary{
     background-color: rgb(154, 0, 0);
 }
@@ -101,7 +106,13 @@ video {
     video{
         height: 100vh !important;
     }
+    #barbacoas{
+        background-position: -500px;
+    }
     .d-none{
         display: none;
+    }
+    .map{
+        width: 100%;
     }
 }
