@@ -19,6 +19,22 @@ body{
     width: 100%;
     min-height: 100vh;
 }
+.landing-carnes{
+    background-image: url("./img/Carnes\ cortadas.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -600px;
+    width: 100%;
+    height: 70vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
 video {
     position: absolute;
     object-fit: cover;
