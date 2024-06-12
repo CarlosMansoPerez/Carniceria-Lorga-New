@@ -88,6 +88,10 @@ video {
 .hover-primary:hover{
     color: rgb(154, 0, 0);
 }
+h3, h4{
+    font-weight: bolder !important;
+    padding-top: 20px;
+}
 
 /* FONTS */
 
