@@ -7,6 +7,7 @@
     <link rel="icon" type="image/jpg" href="./img/logoLorga.png"/>
     <link rel="apple-touch-icon" sizes="180x180" href="./img/logoLorga.png">
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +23,17 @@
     <title>Carnicería Lorga - Marbella</title>
 
 </head>
-<body>
+<body id="body">
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="close-button">&times;</span>
+            <div class="flex flex-col justify-center items-center">
+                <span class="text-red-700 text-2xl uppercase">Cupón de descuento</span>
+                <span class="text-center mt-4">Comenta el código en nuestro local para un 5% de descuento</span>
+                <span class="text-red-700 text-2xl uppercase mt-3">LORGAWEB5</span>
+            </div>
+        </div>
+    </div>
 
     <header>
         <nav class="bg-white border-gray-200 fixed w-full z-50">
@@ -338,6 +349,7 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    
 
 </body>
 </html>
